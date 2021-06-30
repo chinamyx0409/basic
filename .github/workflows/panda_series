@@ -1,0 +1,12 @@
+import pandas as pd
+
+pd.Series(x)
+y = [1,2,3,4]
+f2 = pd.Series(y, name = 'OREGAN')
+y = [1,2,3,4]
+f1 = pd.Series(y, name = 'OREGAN')
+
+x = pd.DataFrame()
+x['a'] = f2
+x['b'] = f1
+x
